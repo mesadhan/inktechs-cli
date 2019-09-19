@@ -18,6 +18,7 @@ if __name__ == '__main__':
 
 
 2.Step: Then, create `setup.py` file and define meta for your CLI
+
 ```python
 from setuptools import setup
 setup(
@@ -31,3 +32,8 @@ setup(
     })
 ```
 
+3. finally create `install.sh` file and addd
+    
+    pip install -e .
+
+    
