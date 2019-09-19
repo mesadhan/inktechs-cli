@@ -1,3 +1,5 @@
 
 .idea
 venv
+
+inktechs_cli.egg-info

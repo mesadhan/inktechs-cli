@@ -32,8 +32,20 @@ setup(
     })
 ```
 
-3. finally create `install.sh` file and addd
+3.finally create `install.sh` file
     
     pip install -e .
 
     
+4.Now, now our CLI ready to use, hit your package name from terminal
+
+    inktechs
+    
+> Output: like below
+
+    Hello! from inktechs cli
+
+
+5.If you want to uninstall package, base on your cli package name
+
+    pip uninstall inktechs-cli
