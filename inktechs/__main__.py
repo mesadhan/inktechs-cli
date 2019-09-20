@@ -5,7 +5,7 @@ from inktechs.process_action import ProcessAction
 
 
 def main():
-    # print('Hello! from inktechs cli')
+    print('Hello! from inktechs cli')
     args = sys.argv[1:]
 
     process_action = ProcessAction()

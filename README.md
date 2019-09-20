@@ -37,14 +37,19 @@ setup(
     pip install -e .
 
     
-4.Now, now our CLI ready to use, hit your package name from terminal
+4.Now, Run CLI, hit your package name from terminal
 
-    inktechs
+    inktechs -c ./home/file.conf --o ./home/text.file
     
 > Output: like below
 
     Hello! from inktechs cli
+    
+    Update configuration as following: ./home/file.conf
 
+    Generate output as following ./home/text.file
+    
+    
 
 5.If you want to uninstall package, base on your cli package name
 
