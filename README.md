@@ -49,3 +49,9 @@ setup(
 5.If you want to uninstall package, base on your cli package name
 
     pip uninstall inktechs-cli
+    
+    
+    
+    
+# References
+- https://docs.python.org/3/library/getopt.html
