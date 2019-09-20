@@ -21,15 +21,21 @@ if __name__ == '__main__':
 
 ```python
 from setuptools import setup
+
 setup(
     name='inktechs-cli',
     version='0.1.0',
     packages=['inktechs'],
+    author="Md. Sadhan Sarker",
+    author_email="cse.sadhan@gmail.com",
+    description="This is an Example Package",
+    keywords="keyword1 keyword2",
     entry_points={
         'console_scripts': [
             'inktechs = inktechs.__main__:main'
         ]
     })
+
 ```
 
 3.finally create `install.sh` file
@@ -60,3 +66,5 @@ setup(
     
 # References
 - https://docs.python.org/3/library/getopt.html
+- https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+- https://setuptools.readthedocs.io/en/latest/setuptools.html#development-mode
